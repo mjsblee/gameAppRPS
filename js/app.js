@@ -28,7 +28,8 @@ function selection(weaker, picNum){
     document.querySelector('.result-image').src = 'img/rps-' + random + '.png';
     document.querySelector('#result-panel').classList.remove('win');
     document.querySelector('#result-panel').classList.remove('lose');
-    document.querySelector('#score-box-' + activePlayer).style.animation = '';
+    document.querySelector('#score-box-0').style.animation = '';
+    document.querySelector('#score-box-1').style.animation = '';
 
     document.querySelector('#rock').style.display = 'none';
     document.querySelector('#paper').style.display = 'none';
