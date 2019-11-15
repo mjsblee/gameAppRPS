@@ -126,6 +126,10 @@ body{
     transform: scale(1.2);
 }
 
+.btn-select:focus{
+    transform: scale(1.2);
+}
+
 .btn-new{
     position: absolute;
     top: 60px;
