@@ -177,7 +177,8 @@ function reset(){
     document.querySelector('.player-1-panel').classList.remove('active');
     document.querySelector('.player-0-panel').classList.add('active');
 
-    document.querySelector('#name-' + activePlayer).style.animation = '';
+    document.querySelector('#name-0').style.animation = '';
+    document.querySelector('#name-1').style.animation = '';
 
     document.querySelector('.final-score').value = '';
 
